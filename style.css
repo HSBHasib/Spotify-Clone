@@ -630,6 +630,7 @@ img:hover {
     justify-content: center;
     gap: 0.6rem;
     align-items: center;
+    width: 50%;
 }
 
 .right-side
@@ -648,8 +649,4 @@ img:hover {
     width: 75%;
     background-color: #ececec;
     border-radius: 50px;
-}
-
-.hide {
-    display: none;
 }
