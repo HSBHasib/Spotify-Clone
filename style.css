@@ -498,6 +498,10 @@ footer a,
 }
 
 /* Middle Part */
+.middle {
+    width: 50%;
+}
+
 .middle 
 .controlar {
     display: flex;
@@ -543,7 +547,7 @@ img:hover {
 .progress-bar
 .progress-bar-line {
     height: 0.26rem;
-    width: 20rem;
+    width: 65%;
     background-color: rgba(128, 128, 128, 0.664);
     border-radius: 50px;
 }
