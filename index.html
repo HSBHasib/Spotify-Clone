@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+
+    <!-- Page Icon -->
+    <link rel="icon" href="./assets/logo.png">
+
+    <!-- Font Style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Css links -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+</head>
+<body class="montserrat-font">
+        <!-- Main Section -->
+        <main>
+            <!-- Sidebar-Section -->
+            <section class="sidebar">
+                <!-- Navber-Sectoin -->
+
+                <nav class="nav d-flex border-rd">
+                    <div class="nav-icons nav-icon1">
+                        <i class="fa-solid fa-house"></i>
+                        <a class="anchor" href="#">Home</a>
+                    </div>
+
+                    <div class="nav-icons nav-icon-2">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <a class="anchor" href="#">Search</a>
+                    </div>
+                </nav>
+
+                <!-- Library-Sectoin -->
+                <section class="lib-content border-rd">
+                    <!-- Library-Top Text and Icon Content -->
+                     <div class="lib-icons-content">
+                        <!-- Library-Text-Content -->
+                        <div class="lib-text">
+                            <img src="./assets/library_icon.png" alt="library-icon">
+                            <a href="#" class="anchor">Your Library</a>
+                        </div>
+
+                        <!-- Library-Icons -->
+                        <div class="lib-icon">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                    </div>
+
+                    <!-- Library boxes -->
+                    <div class="lib-boxes border-rd">
+                        <!-- Box-1 -->
+                        <div class="lib-box lib-box-1 border-rd">
+                            <h5>Create your first playlist</h5>
+                            <p>It's easy. we'll help you</p>
+                            <button class="btn lib-btn">
+                                Create playlist
+                            </button>
+                        </div>
+
+                        <!-- Box-2 -->
+                        <div class="lib-box lib-box-2 border-rd">
+                            <h5>Let's find podcasts to follow</h5>
+                            <p>We'll keep you updated one new episodes</p>
+                            <button class="btn lib-btn">
+                                Browse podcasts
+                            </button>
+                        </div>
+                    </div>
+                </section>
+
+            </section>
+
+            <!-- Main-Content-Section -->
+            <section class="main-content border-rd">
+                <!-- Sticky-Navber -->
+                <div class="sticky-nav d-flex">
+                    <!-- Left-Icons -->
+                    <div class="sticky-nav-left-icons d-flex">
+                        <!-- Backward-Icon -->
+                        <div class="backward-icon d-flex">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </div>
+                        <!-- Forward-Icon -->
+                        <div class="forward-icon d-flex">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+
+                    <!-- Right-Icons -->
+                    <div class="sticky-nav-right-info d-flex">
+                        <button class="btn explore-btn">Explore premium</button>
+                        <button class="btn black-btn"><i class="fa-solid fa-circle-arrow-down"></i> Install app</button>
+                        <i class="fa-regular fa-bell"></i>
+                        <i class="fa-solid fa-users"></i>
+                        
+                        <div class="user-photo">
+                            <img src="./assets/model-img.avif" alt="model-img">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Main Song-Cards -->
+                <div class="main-cards">
+
+                    <!-- Card-Container-1 -->
+                    <h2>Recently Played</h2>
+                    <div class="card-container margin-btm">
+                        <div class="main-card">
+                            <img src="./assets/card1img.jpeg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+
+                        </div>
+                    </div>
+
+                    <!-- Card-Container-2 -->
+                    <h2>Recommended for today</h2>
+                    <div class="card-container margin-btm">
+                        <!-- Card-1 -->
+                        <div class="main-card">
+                            <img src="./assets/card2img.jpeg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+
+                        <!-- Card-2 -->
+                        <div class="main-card">
+                            <img src="./assets/card3img.jpeg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+
+                        <!-- Card-3 -->
+                        <div class="main-card">
+                            <img src="./assets/card4img.jpeg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+
+                        <!-- Card-4 -->
+                        <div class="main-card">
+                            <img src="./assets/card7.jpg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+                    </div>
+
+                    <!-- Card-Container-3 -->
+                    <h2>Popular radio</h2>
+                    <div class="card-container margin-btm">
+                        <!-- Card-1 -->
+                        <div class="main-card">
+                            <img src="./assets/card2img.jpeg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+
+                        <!-- Card-2 -->
+                        <div class="main-card">
+                            <img src="./assets/card3img.jpeg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+
+                        <!-- Card-3 -->
+                        <div class="main-card">
+                            <img src="./assets/card4img.jpeg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+
+                        <!-- Card-4 -->
+                        <div class="main-card">
+                            <img src="./assets/card7.jpg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+
+                        <!-- Card-5 -->
+                        <div class="main-card">
+                            <img src="./assets/card2img.jpeg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+
+                        <!-- Card-6 -->
+                        <div class="main-card">
+                            <img src="./assets/card3img.jpeg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+
+                        <!-- Card-7 -->
+                        <div class="main-card">
+                            <img src="./assets/card4img.jpeg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+
+                        <!-- Card-8 -->
+                        <div class="main-card">
+                            <img src="./assets/card7.jpg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+
+                        <!-- Card-9 -->
+                        <div class="main-card">
+                            <img src="./assets/card2img.jpeg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+
+                        <!-- Card-10 -->
+                        <div class="main-card">
+                            <img src="./assets/card3img.jpeg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+
+                        <!-- Card-11 -->
+                        <div class="main-card">
+                            <img src="./assets/card4img.jpeg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+
+                        <!-- Card-12 -->
+                        <div class="main-card">
+                            <img src="./assets/card7.jpg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+
+                        <!-- Card-13 -->
+                        <div class="main-card">
+                            <img src="./assets/card7.jpg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+
+                        <!-- Card-14 -->
+                        <div class="main-card">
+                            <img src="./assets/card7.jpg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+                    </div>
+
+                    <!-- Card-Container-4 -->
+                    <h2>Your top mixes</h2>
+                    <div class="card-container margin-btm">
+                        <!-- Card-1 -->
+                        <div class="main-card">
+                            <img src="./assets/card2img.jpeg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+
+                        <!-- Card-2 -->
+                        <div class="main-card">
+                            <img src="./assets/card3img.jpeg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+
+                        <!-- Card-3 -->
+                        <div class="main-card">
+                            <img src="./assets/card4img.jpeg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+
+                        <!-- Card-4 -->
+                        <div class="main-card">
+                            <img src="./assets/card7.jpg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+
+                        <!-- Card-5 -->
+                        <div class="main-card">
+                            <img src="./assets/card2img.jpeg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+
+                        <!-- Card-6 -->
+                        <div class="main-card">
+                            <img src="./assets/card3img.jpeg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+
+                        <!-- Card-7 -->
+                        <div class="main-card">
+                            <img src="./assets/card4img.jpeg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+
+                        <!-- Card-8 -->
+                        <div class="main-card">
+                            <img src="./assets/card7.jpg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+
+                        <!-- Card-9 -->
+                        <div class="main-card">
+                            <img src="./assets/card2img.jpeg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+                    </div>
+
+                    <!-- Card-Container-5 -->
+                    <h2>Popular albums</h2>
+                    <div class="card-container margin-btm">
+                        <!-- Card-1 -->
+                        <div class="main-card">
+                            <img src="./assets/card2img.jpeg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+
+                        <!-- Card-2 -->
+                        <div class="main-card">
+                            <img src="./assets/card3img.jpeg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+
+                        <!-- Card-3 -->
+                        <div class="main-card">
+                            <img src="./assets/card4img.jpeg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+
+                        <!-- Card-4 -->
+                        <div class="main-card">
+                            <img src="./assets/card7.jpg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+
+                        <!-- Card-5 -->
+                        <div class="main-card">
+                            <img src="./assets/card2img.jpeg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+
+                        <!-- Card-6 -->
+                        <div class="main-card">
+                            <img src="./assets/card3img.jpeg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+
+                        <!-- Card-7 -->
+                        <div class="main-card">
+                            <img src="./assets/card4img.jpeg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+
+                        <!-- Card-8 -->
+                        <div class="main-card">
+                            <img src="./assets/card7.jpg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+                    </div>
+
+                    <!-- Card-Container-6 -->
+                    <h2>Based on your recent listening</h2>
+                    <div class="card-container margin-btm">
+                        <!-- Card-1 -->
+                        <div class="main-card">
+                            <img src="./assets/card2img.jpeg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+
+                        <!-- Card-2 -->
+                        <div class="main-card">
+                            <img src="./assets/card3img.jpeg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+
+                        <!-- Card-3 -->
+                        <div class="main-card">
+                            <img src="./assets/card4img.jpeg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+
+                        <!-- Card-4 -->
+                        <div class="main-card">
+                            <img src="./assets/card7.jpg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+                    </div>
+
+                    <!-- Card-Container-7 -->
+                    <h2>Sad Song</h2>
+                    <div class="card-container margin-btm">
+                        <!-- Card-1 -->
+                        <div class="main-card">
+                            <img src="./assets/card2img.jpeg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+
+                        <!-- Card-2 -->
+                        <div class="main-card">
+                            <img src="./assets/card3img.jpeg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+
+                        <!-- Card-3 -->
+                        <div class="main-card">
+                            <img src="./assets/card4img.jpeg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+
+                        <!-- Card-4 -->
+                        <div class="main-card">
+                            <img src="./assets/card7.jpg" alt="card-1">
+                            <h3>Top 50 - Global</h3>
+                            <p>Your daily updates of the most played tracks rig... </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Footer Sectoin -->
+                <footer>
+                    <!-- Footer-Line -->
+                    <div class="footer-top-line"></div>
+
+                    <!-- Footer Top-Content -->
+                    <div class="footer-top-content d-flex">
+
+                        <!-- Footer-Impotent-Links | Top-Contents -->
+                        <div class="footer-links-item-box d-flex">
+                            <!-- Links-Row-1 -->
+                            <div class="footer-links links-1">
+                                <h5>Company</h5>
+                                <ul>
+                                    <li><a href="#">about</a></li>
+                                    <li><a href="#">jobs</a></li>
+                                    <li><a href="#">for the record</a></li>
+                                </ul>
+                            </div>
+
+                            <!-- Links-Row-2 -->
+                            <div class="footer-links links-1">
+                                <h5>Communities</h5>
+                                <ul>
+                                    <li><a href="#">For Artists</a></li>
+                                    <li><a href="#">Developers</a></li>
+                                    <li><a href="#">Advertising</a></li>
+                                    <li><a href="#">Investors</a></li>
+                                    <li><a href="#">Vendors</a></li>
+                                </ul>
+                            </div>
+
+                            <!-- Links-Row-3 -->
+                            <div class="footer-links links-1">
+                                <h5>Useful links</h5>
+                                <ul>
+                                    <li><a href="#">Support</a></li>
+                                    <li><a href="#">Free Mobile App</a></li>
+                                    <li><a href="#">Popular by Country</a></li>
+                                    <li><a href="#">Import your music</a></li>
+                                </ul>
+                            </div>
+
+                            <!-- Links-Row-4 -->
+                            <div class="footer-links links-1">
+                                <h5>Company</h5>
+                                <ul>
+                                    <li><a href="#">about</a></li>
+                                    <li><a href="#">jobs</a></li>
+                                    <li><a href="#">for the record</a></li>
+                                </ul>
+                            </div>
+                        </div>  
+
+                        <!-- Footer-Icons -->
+                        <div class="footer-icons d-flex">
+                             <div class="footer-icon">
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+
+                            <div class="footer-icon">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+
+                            <div class="footer-icon">
+                                <i class="fa-brands fa-facebook"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Footer-Line -->
+                    <div class="footer-btm-line"></div>
+
+                    <!-- Fotter-Btm-Content -->
+                    <div class="footer-btm-content d-flex">
+                        <!-- Footer-Btm-Details-1 -->
+                        <div class="footer-details-1">
+                            <a href="#">Legal</a>
+                            <a href="#">Safety & Privacy Center</a>
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Cookies</a>
+                            <a href="#">About Ads</a>
+                            <a href="#">Accessibility</a>
+                        </div>
+
+                        <!-- Footer-Btm-Details-2 -->
+                        <div class="footer-details-2">
+                            <p>© 2026 Spotify AB</p>
+                        </div>
+                    </div>
+
+                
+                </footer>
+            </section>
+
+            <!-- Music-Player-Section -->
+            <section class="music-player">
+                <div class="left-side">
+                <img src="./assets/album_picture.jpeg" alt="Music-album-img" class="albus-img">
+                <div class="music-dets">
+                    <a href="#" id="music-nm">Nishobdopur</a>
+                    <a href="#" id="singer-nm">Shironamhin</a>
+                </div>
+                <i class="fa-solid fa-circle-plus"></i>
+                </div>
+
+                <div class="middle">
+                    <div class="controlar">
+                        <img src="./assets/player_icon1.png" alt="">
+                        <img src="./assets/player_icon2.png" alt="">
+                        <img id="play-icon" src="./assets/player_icon3.png" alt="">
+                        <img src="./assets/player_icon4.png" alt="">
+                        <img src="./assets/player_icon5.png" alt="">
+                    </div>
+                    <div class="progress-bar">
+                        <p>1:10</p>
+                        <div class="progress-bar-line">
+                            <div class="inner-prog-bar"></div>
+                        </div>
+                        <p>4:29</p>
+                    </div>
+                </div>
+
+                <div class="right-side">
+                    <img id="mike" src="./assets/controld_icon2.png" alt="">
+                    <img id="control-2" src="./assets/controls_icon3.png" alt="">
+                    <img id="control-3" src="./assets/controls_icon4.png" alt="">
+                    
+                    <div class="volume-bar">
+                    <img id="volume" src="./assets/controls_icon5.png" alt="">
+                        <div class="volume-bar-line">
+                            <div class="inner-volume-bar"></div>
+                        </div>
+                    
+                    </div>
+                    <img id="control-4" src="./assets/album_icon2.png" alt="">
+                    <i class="fa-solid fa-expand"></i>
+                </div>
+            </section>
+
+        </main>
+</body>
+</html>
