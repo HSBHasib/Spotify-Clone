@@ -17,6 +17,10 @@ body {
 }
 
 /* Common Style */
+.hide {
+    display: none;
+}
+
 :root {
     --bg-dark: #121212;
     --bg-card: #1F1F1F;

@@ -1,0 +1,41 @@
+/* Responsive Code For Mobile Dev */
+@media screen and (max-width: 575.98px) {
+        /* sidebar-Section */
+        .sidebar,
+        .sticky-nav  
+        .sticky-nav-left-icons,
+        .black-btn {
+            display: none;
+        }
+
+        /* Main-Content | Sticky-Navebr-Section */
+        .sticky-nav {
+            position: sticky;
+            top: 0;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.4rem 0.8rem;            
+        }
+
+        .bar-icon {
+            font-size: 2rem;
+            color: #FFF;
+            display: initial;
+            opacity: 1;
+        }
+
+
+        /* Musics-Section */
+        .music-player
+        .right-side,
+        .middle {
+            display: none;
+        }
+
+
+        .music-player
+        .menu-bar i {
+            font-size: 1.3rem;
+            opacity: 0.8;
+        }     
+}
