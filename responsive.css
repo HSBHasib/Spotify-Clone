@@ -32,6 +32,27 @@
             margin-top: 1.2rem;
         }
 
+        .footer-links-item-box {
+            width: 85%;
+            justify-content: space-between;
+        }
+
+        footer a,
+        .footer-btm-content a,
+        .footer-btm-content p {
+            font-size: 0.65rem;
+        }
+
+        .footer-icons {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: end;
+            width: 10%;
+        }
+
+        .footer-details-1 a {
+            font-size: 0.55rem;
+        }
 
         /* Musics-Section */
         .music-player
