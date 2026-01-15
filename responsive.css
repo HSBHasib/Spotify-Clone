@@ -37,6 +37,99 @@
             justify-content: space-between;
         }
 
+        .footer-links h5 {
+            font-size: 0.6rem;
+            margin-bottom: 0.4rem;
+        }
+
+        .footer-links-item-box a {
+            font-size: 0.5rem;
+        }
+
+        .footer-links li {
+            margin-bottom: 0.1rem;
+        }
+
+        .footer-icons {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: end;
+            width: 10%;
+        }
+
+        .footer-icon {
+            width: 1.8rem;
+            height: 1.8rem;
+        }
+
+        .footer-icon i {
+            font-size: 0.8rem;
+        }
+
+
+        .footer-details-1 a {
+            font-size: 0.55rem;
+            margin: 0 0.3rem;
+        }
+
+        .footer-details-2 {
+            margin-left: 0.5rem;
+        }
+
+        /* Musics-Section */
+        .music-player
+        .right-side,
+        .middle {
+            display: none;
+        }
+
+
+        .music-player
+        .menu-bar i {
+            font-size: 1.3rem;
+            opacity: 0.8;
+        }     
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media screen and (max-width: 767.98px) {
+        /* sidebar-Section */
+        .sidebar,
+        .sticky-nav  
+        .sticky-nav-left-icons,
+        .black-btn {
+            display: none;
+        }
+
+        /* Main-Content | Sticky-Navebr-Section */
+        .sticky-nav {
+            position: sticky;
+            top: 0;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.4rem 0.8rem;            
+        }
+
+        .bar-icon {
+            font-size: 2rem;
+            color: #FFF;
+            display: initial;
+            opacity: 1;
+        }
+
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            row-gap: 1.5rem;
+            column-gap: 0.7rem;
+            margin-top: 1.2rem;
+        }
+
+        .footer-links-item-box {
+            width: 85%;
+            justify-content: space-between;
+        }
+
         footer a,
         .footer-btm-content a,
         .footer-btm-content p {
