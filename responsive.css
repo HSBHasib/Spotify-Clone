@@ -24,6 +24,14 @@
             opacity: 1;
         }
 
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            row-gap: 1.5rem;
+            column-gap: 0.7rem;
+            margin-top: 1.2rem;
+        }
+
 
         /* Musics-Section */
         .music-player
