@@ -1,3 +1,69 @@
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+        /* sidebar-Section */
+        .sidebar,
+        .sticky-nav  
+        .sticky-nav-left-icons,
+        .black-btn {
+            display: none;
+        }
+
+        /* Main-Content | Sticky-Navebr-Section */
+        .sticky-nav {
+            position: sticky;
+            top: 0;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.4rem 0.8rem;            
+        }
+
+        .bar-icon {
+            font-size: 2rem;
+            color: #FFF;
+            display: initial;
+            opacity: 1;
+        }
+
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            row-gap: 1.5rem;
+            column-gap: 0.7rem;
+            margin-top: 1.2rem;
+        }
+
+        .footer-links-item-box {
+            width: 85%;
+        }
+
+        .footer-links-item-box a {
+            font-size: 0.7rem;
+        }
+
+        .footer-details-1 a {
+            font-size: 0.7rem;
+        }
+
+        .footer-details-2 {
+            margin-left: 0.5rem;
+        }
+
+        /* Musics-Section */
+        .music-player
+        .right-side,
+        .middle {
+            display: none;
+        }
+
+
+        .music-player
+        .menu-bar i {
+            font-size: 1.3rem;
+            opacity: 0.8;
+        }     
+}
+
+
 /* Responsive Code For Mobile Dev */
 @media screen and (max-width: 575.98px) {
         /* sidebar-Section */
